@@ -10,5 +10,5 @@ import { InicioComponent } from "./paginas/inicio/inicio.component";
     imports: [RouterOutlet, RouterLink, InicioComponent]
 } )
 export class AppComponent {
-  title = 'Trabajo-Taller';
+  title = 'Taller-de-angular';
 }

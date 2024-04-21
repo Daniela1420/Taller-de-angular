@@ -1,5 +1,5 @@
 {
-  "name": "trabajo-taller",
+  "name": "taller-de-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:Trabajo-Taller": "node dist/trabajo-taller/server/server.mjs"
+    "serve:ssr:TTaller-de-angular": "node dist/taller-de-angular/server/server.mjs"
   },
   "private": true,
   "dependencies": {

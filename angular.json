@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Trabajo-Taller": {
+    "Taller-de-angular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/trabajo-taller",
+            "outputPath": "dist/Taller-de-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Trabajo-Taller:build:production"
+              "buildTarget": "Taller-de-angular:build:production"
             },
             "development": {
-              "buildTarget": "Trabajo-Taller:build:development"
+              "buildTarget": "Taller-de-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Trabajo-Taller:build"
+            "buildTarget": "Taller-de-angular:build"
           }
         },
         "test": {
